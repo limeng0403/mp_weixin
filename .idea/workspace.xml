@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6ff7036-15c0-4d20-bba6-0468b044decc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wx_sample.php" afterPath="$PROJECT_DIR$/wx_sample.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wx_template.php" afterPath="$PROJECT_DIR$/wx_template.php" />
     </list>
     <ignored path="mp_weixin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,26 +25,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="wx_template.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="wx_template.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wx_template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.125">
-              <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+            <state vertical-scroll-proportion="0.72182596">
+              <caret line="57" column="45" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
               <folding>
-                <marker date="1459477820803" expanded="true" signature="150:948" placeholder="..." />
-                <marker date="1459477820803" expanded="true" signature="484:921" placeholder="..." />
-                <marker date="1459477820803" expanded="true" signature="515:885" placeholder="..." />
-                <marker date="1459477820803" expanded="true" signature="1031:1405" placeholder="..." />
+                <marker date="1459494885877" expanded="true" signature="150:938" placeholder="..." />
+                <marker date="1459494885877" expanded="true" signature="484:911" placeholder="..." />
+                <marker date="1459494885877" expanded="true" signature="515:875" placeholder="..." />
+                <marker date="1459494885877" expanded="true" signature="1011:3439" placeholder="..." />
+                <marker date="1459494885877" expanded="true" signature="1345:3412" placeholder="..." />
+                <marker date="1459494885877" expanded="true" signature="1376:1762" placeholder="..." />
+                <marker date="1459494885877" expanded="true" signature="1793:2170" placeholder="..." />
+                <marker date="1459494885877" expanded="true" signature="2201:2573" placeholder="..." />
+                <marker date="1459494885877" expanded="true" signature="2604:2976" placeholder="..." />
+                <marker date="1459494885877" expanded="true" signature="3007:3376" placeholder="..." />
+                <marker date="1459494885877" expanded="true" signature="3522:3896" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wx_sample.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fed.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fed.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.875">
+              <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wx_sample.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wx_sample.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5349501">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state vertical-scroll-proportion="-16.083334">
+              <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -51,12 +69,20 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/fed.html" />
         <option value="$PROJECT_DIR$/wx_sample.php" />
         <option value="$PROJECT_DIR$/wx_template.php" />
       </list>
@@ -118,16 +144,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mp_weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mp_weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -180,7 +221,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="886" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25358167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -210,24 +251,39 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wx_template.php">
+    <entry file="file://$PROJECT_DIR$/fed.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.125">
-          <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
-          <folding>
-            <marker date="1459477820803" expanded="true" signature="150:948" placeholder="..." />
-            <marker date="1459477820803" expanded="true" signature="484:921" placeholder="..." />
-            <marker date="1459477820803" expanded="true" signature="515:885" placeholder="..." />
-            <marker date="1459477820803" expanded="true" signature="1031:1405" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="-16.875">
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wx_sample.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5349501">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state vertical-scroll-proportion="-16.083334">
+          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72182596">
+          <caret line="57" column="45" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
+          <folding>
+            <marker date="1459494885877" expanded="true" signature="150:938" placeholder="..." />
+            <marker date="1459494885877" expanded="true" signature="484:911" placeholder="..." />
+            <marker date="1459494885877" expanded="true" signature="515:875" placeholder="..." />
+            <marker date="1459494885877" expanded="true" signature="1011:3439" placeholder="..." />
+            <marker date="1459494885877" expanded="true" signature="1345:3412" placeholder="..." />
+            <marker date="1459494885877" expanded="true" signature="1376:1762" placeholder="..." />
+            <marker date="1459494885877" expanded="true" signature="1793:2170" placeholder="..." />
+            <marker date="1459494885877" expanded="true" signature="2201:2573" placeholder="..." />
+            <marker date="1459494885877" expanded="true" signature="2604:2976" placeholder="..." />
+            <marker date="1459494885877" expanded="true" signature="3007:3376" placeholder="..." />
+            <marker date="1459494885877" expanded="true" signature="3522:3896" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

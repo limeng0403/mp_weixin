@@ -46,9 +46,15 @@ class wechatCallbackapiTest{
             }
 
             if(!empty ($keyword)){
-                $msgType = "text";
-                $contentStr = 'Come back soon!';
-                $resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
+                if($keyword == '关注'){
+                    $textTpl = getTemplate('subscribe_tw');
+                    $resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time);
+                    echo $resultStr;
+                    exit();
+                }
+
+                $textTpl = getTemplate('work_list');
+                $resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time);
                 echo $resultStr;
             }else{
                 echo "Input something...";
