@@ -3,6 +3,7 @@
  * wechat php test
  */
 include_once('wx_template.php');
+include_once('wx_weather.php');
 // define your token
 define("TOKEN", "limeng123456789");
 $wechatObj = new wechatCallbackapiTest();
