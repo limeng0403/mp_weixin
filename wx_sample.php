@@ -4,6 +4,7 @@
  */
 include_once('wx_template.php');
 include_once('wx_weather.php');
+include_once('wx_weather.php');
 // define your token
 define("TOKEN", "limeng123456789");
 $wechatObj = new wechatCallbackapiTest();
@@ -24,6 +25,7 @@ class wechatCallbackapiTest{
     public function responseMsg(){
         // get post data, May be due to the different environments
         $postStr = $GLOBALS ["HTTP_RAW_POST_DATA"];
+        $weatherObj=new weatherClass();
 
         // extract post data
         if(!empty ($postStr)){
@@ -52,6 +54,10 @@ class wechatCallbackapiTest{
                     $resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time);
                     echo $resultStr;
                     exit();
+                }
+
+                if(strpos($keyword,'天气-')){
+
                 }
 
                 $textTpl = getTemplate('work_list');
