@@ -71,19 +71,18 @@ class weatherClass{
         $fontType = 'fonts' . DIRECTORY_SEPARATOR . 'msyhbd.ttc';
 
         if($im && $city){
-            imagettftext($im, 24, 0, 50, 50, $textcolor, $fontType, $city);
-            imagettftext($im, 24, 0, 126, 55, $textcolor, $fontType, $pinyin);
-            imagettftext($im, 18, 0, 50, 100, $textcolor, $fontType, $date);
-            imagettftext($im, 18, 0, 50, 150, $textcolor, $fontType, '天气：' . $weather);
-            imagettftext($im, 18, 0, 50, 200, $textcolor, $fontType, '最高温度：' . $h_tmp . '℃');
-            imagettftext($im, 18, 0, 50, 250, $textcolor, $fontType, '最低温度：' . $l_tmp . '℃');
-            imagettftext($im, 18, 0, 50, 300, $textcolor, $fontType, '风向：' . $WD);
-            imagettftext($im, 18, 0, 50, 350, $textcolor, $fontType, '风速：' . $WS);
-            imagettftext($im, 18, 0, 50, 400, $textcolor, $fontType, '日出时间：' . $sunrise);
-            imagettftext($im, 18, 0, 50, 450, $textcolor, $fontType, '日落时间：' . $sunset);
-            imagettftext($im, 10, 0, 50, 550, $textcolor, $fontType, '数据来源：百度API天气');
+            imagettftext($im, 24, 0, 20, 50, $textcolor, $fontType, $city . ' ' . $pinyin);
+            imagettftext($im, 18, 0, 20, 100, $textcolor, $fontType, $date);
+            imagettftext($im, 18, 0, 20, 150, $textcolor, $fontType, '天气：' . $weather);
+            imagettftext($im, 18, 0, 20, 200, $textcolor, $fontType, '最高温度：' . $h_tmp . '℃');
+            imagettftext($im, 18, 0, 20, 250, $textcolor, $fontType, '最低温度：' . $l_tmp . '℃');
+            imagettftext($im, 18, 0, 20, 300, $textcolor, $fontType, '风向：' . $WD);
+            imagettftext($im, 18, 0, 20, 350, $textcolor, $fontType, '风速：' . $WS);
+            imagettftext($im, 18, 0, 20, 400, $textcolor, $fontType, '日出时间：' . $sunrise);
+            imagettftext($im, 18, 0, 20, 450, $textcolor, $fontType, '日落时间：' . $sunset);
+            imagettftext($im, 10, 0, 20, 550, $textcolor, $fontType, '数据来源：百度API天气');
         }else{
-            imagettftext($im, 24, 0, 50, 50, $textcolor, $fontType, '对不起:(');
+            imagettftext($im, 24, 0, 20, 50, $textcolor, $fontType, '对不起:(');
             imagettftext($im, 24, 0, 126, 55, $textcolor, $fontType, '没有您要查询的城市信息');
         }
 
@@ -93,7 +92,7 @@ class weatherClass{
 
         if($im && $city){
             imagettftext($im, 18, 0, 10, 34, $textcolor, $fontType, $city . ' ' . $pinyin);
-            imagettftext($im, 14, 0, 10, 74, $textcolor, $fontType, '今日：' . $weather);
+            imagettftext($im, 14, 0, 10, 74, $textcolor, $fontType, '天气：' . $weather);
             imagettftext($im, 14, 0, 10, 104, $textcolor, $fontType, '温度：' . $h_tmp . '-' . $l_tmp . '℃');
             imagettftext($im, 14, 0, 10, 134, $textcolor, $fontType, '风向：' . $WD);
             imagettftext($im, 14, 0, 10, 164, $textcolor, $fontType, '风速：' . $WS);

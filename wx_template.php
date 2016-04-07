@@ -73,7 +73,7 @@ function getTemplate($type = 'default_wz'){
                             <Title><![CDATA[今日天气]]></Title>
                             <Description><![CDATA[点击查看更多天气信息]]></Description>
                             <PicUrl><![CDATA[http://www.limeng.pw/mpweixin/weather/mini_%s]]></PicUrl>
-                            <Url><![CDATA[http://www.limeng.pw/mpweixin/fed.html]]></Url>
+                            <Url><![CDATA[http://www.limeng.pw/mpweixin/weather_detail.html?filename=%s]]></Url>
                         </item>
                         </Articles>
                     </xml>";

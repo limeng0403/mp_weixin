@@ -58,7 +58,7 @@ class wechatCallbackapiTest{
                 if(strpos($keyword, '天气') != false){
                     $textTpl = getTemplate('weather');
                     $imgName = $weatherObj->createWeather(explode('天气', $keyword)[0]);
-                    $resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $imgName);
+                    $resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $imgName, $imgName);
                     echo $resultStr;
                     exit();
                 }
