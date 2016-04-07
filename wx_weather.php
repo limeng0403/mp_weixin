@@ -34,7 +34,7 @@ class weatherClass{
 
     private function createImg($cityName = '无锡', $fileName = 'wd.jpg'){
         $url = 'http://apis.baidu.com/apistore/weatherservice/cityname';
-        $params = '?cityname=无锡';
+        $params = '?cityname=' . $cityName;
 
         // create a new cURL resource
         $ch = curl_init();
@@ -66,12 +66,11 @@ class weatherClass{
             $sunset = $json['retData']['sunset'];
         }
 
-        $im = imagecreatefromjpeg('weatherbg.jpg');
-
+        $im = imagecreatefromjpeg('imgs' . DIRECTORY_SEPARATOR . 'weatherbg.jpg');
         $textcolor = imagecolorallocate($im, 255, 255, 255);
-        $fontType = 'msyhbd.ttc';
+        $fontType = 'fonts' . DIRECTORY_SEPARATOR . 'msyhbd.ttc';
 
-        if($im){
+        if($im && $city){
             imagettftext($im, 24, 0, 50, 50, $textcolor, $fontType, $city);
             imagettftext($im, 24, 0, 126, 55, $textcolor, $fontType, $pinyin);
             imagettftext($im, 18, 0, 50, 100, $textcolor, $fontType, $date);
@@ -83,21 +82,27 @@ class weatherClass{
             imagettftext($im, 18, 0, 50, 400, $textcolor, $fontType, '日出时间：' . $sunrise);
             imagettftext($im, 18, 0, 50, 450, $textcolor, $fontType, '日落时间：' . $sunset);
             imagettftext($im, 10, 0, 50, 550, $textcolor, $fontType, '数据来源：百度API天气');
+        }else{
+            imagettftext($im, 24, 0, 50, 50, $textcolor, $fontType, '对不起:(');
+            imagettftext($im, 24, 0, 126, 55, $textcolor, $fontType, '没有您要查询的城市信息');
         }
 
-        imagejpeg($im, $fileName);
+        imagejpeg($im, 'weather' . DIRECTORY_SEPARATOR . $fileName);
 
-        $im = imagecreatefromjpeg('weather_mini.jpg');
+        $im = imagecreatefromjpeg('imgs' . DIRECTORY_SEPARATOR . 'weather_mini.jpg');
 
-        if($im){
+        if($im && $city){
             imagettftext($im, 18, 0, 10, 34, $textcolor, $fontType, $city . ' ' . $pinyin);
             imagettftext($im, 14, 0, 10, 74, $textcolor, $fontType, '今日：' . $weather);
             imagettftext($im, 14, 0, 10, 104, $textcolor, $fontType, '温度：' . $h_tmp . '-' . $l_tmp . '℃');
             imagettftext($im, 14, 0, 10, 134, $textcolor, $fontType, '风向：' . $WD);
             imagettftext($im, 14, 0, 10, 164, $textcolor, $fontType, '风速：' . $WS);
+        }else{
+            imagettftext($im, 18, 0, 10, 34, $textcolor, $fontType, '对不起:(');
+            imagettftext($im, 14, 0, 10, 74, $textcolor, $fontType, '没有您要查询的城市信息');
         }
 
-        imagejpeg($im, 'mini_' . $fileName);
+        imagejpeg($im, 'weather' . DIRECTORY_SEPARATOR . 'mini_' . $fileName);
 
         return true;
     }

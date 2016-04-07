@@ -61,13 +61,30 @@ function getTemplate($type = 'default_wz'){
                         </Articles>
                     </xml>";
             break;
+        case 'weather':
+            return "<xml>
+                        <ToUserName><![CDATA[%s]]></ToUserName>
+                        <FromUserName><![CDATA[%s]]></FromUserName>
+                        <CreateTime>%s</CreateTime>
+                        <MsgType><![CDATA[news]]></MsgType>
+                        <ArticleCount>1</ArticleCount>
+                        <Articles>
+                        <item>
+                            <Title><![CDATA[今日天气]]></Title>
+                            <Description><![CDATA[点击查看更多天气信息]]></Description>
+                            <PicUrl><![CDATA[http://www.limeng.pw/mpweixin/weather/mini_%s]]></PicUrl>
+                            <Url><![CDATA[http://www.limeng.pw/mpweixin/fed.html]]></Url>
+                        </item>
+                        </Articles>
+                    </xml>";
+            break;
         //默认回复文字消息
         default:
             return "<xml>
                         <ToUserName><![CDATA[%s]]></ToUserName>
                         <FromUserName><![CDATA[%s]]></FromUserName>
                         <CreateTime>%s</CreateTime>
-                        <MsgType><![CDATA[%s]]></MsgType>
+                        <MsgType><![CDATA[text]]></MsgType>
                         <Content><![CDATA[%s]]></Content>
                         <FuncFlag>0</FuncFlag>
                     </xml>";
