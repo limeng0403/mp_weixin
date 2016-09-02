@@ -26,7 +26,7 @@ function getTemplate($type = 'default_wz'){
                         <FromUserName><![CDATA[%s]]></FromUserName>
                         <CreateTime>%s</CreateTime>
                         <MsgType><![CDATA[news]]></MsgType>
-                        <ArticleCount>5</ArticleCount>
+                        <ArticleCount>6</ArticleCount>
                         <Articles>
                         <item>
                             <Title><![CDATA[我的博客]]></Title>
@@ -57,6 +57,12 @@ function getTemplate($type = 'default_wz'){
                             <Description><![CDATA[animo.js演示]]></Description>
                             <PicUrl><![CDATA[https://wx.44162148.vip/imgs/animojs.jpg]]></PicUrl>
                             <Url><![CDATA[https://wx.44162148.vip/project/animo_js/index.html]]></Url>
+                        </item>
+                        <item>
+                            <Title><![CDATA[新闻API演示]]></Title>
+                            <Description><![CDATA[百度APIStore中的新闻接口演示]]></Description>
+                            <PicUrl><![CDATA[https://wx.44162148.vip/imgs/news.jpg]]></PicUrl>
+                            <Url><![CDATA[https://wx.44162148.vip/project/mobile_persional/news.html]]></Url>
                         </item>
                         </Articles>
                     </xml>";
