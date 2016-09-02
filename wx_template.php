@@ -14,8 +14,8 @@ function getTemplate($type = 'default_wz'){
                         <item>
                             <Title><![CDATA[感谢订阅]]></Title>
                             <Description><![CDATA[回复任意信息查看目录]]></Description>
-                            <PicUrl><![CDATA[http://www.limeng.pw/mpweixin/imgs/FED.jpg]]></PicUrl>
-                            <Url><![CDATA[http://www.limeng.pw/mpweixin/fed.html]]></Url>
+                            <PicUrl><![CDATA[https://wx.44162148.vip/imgs/FED.jpg]]></PicUrl>
+                            <Url><![CDATA[https://wx.44162148.vip/fed.html]]></Url>
                         </item>
                         </Articles>
                     </xml>";
@@ -31,32 +31,32 @@ function getTemplate($type = 'default_wz'){
                         <item>
                             <Title><![CDATA[我的博客]]></Title>
                             <Description><![CDATA[个人收集的名家之作，值得细细口味。]]></Description>
-                            <PicUrl><![CDATA[http://www.limeng.pw/mpweixin/imgs/blog.jpg]]></PicUrl>
-                            <Url><![CDATA[https://github.com/limeng0403/libs/blob/master/README.md]]></Url>
+                            <PicUrl><![CDATA[https://wx.44162148.vip/imgs/blog.jpg]]></PicUrl>
+                            <Url><![CDATA[https://blog.44162148.vip/]]></Url>
                         </item>
                         <item>
                             <Title><![CDATA[移动网站演示一]]></Title>
                             <Description><![CDATA[模仿淘宝的移动端网页演示]]></Description>
-                            <PicUrl><![CDATA[http://www.limeng.pw/mpweixin/imgs/taobao.jpg]]></PicUrl>
-                            <Url><![CDATA[http://www.limeng.pw/mobile_personal/index.html]]></Url>
+                            <PicUrl><![CDATA[https://wx.44162148.vip/imgs/taobao.jpg]]></PicUrl>
+                            <Url><![CDATA[https://wx.44162148.vip/project/mobile_persional/index.html]]></Url>
                         </item>
                         <item>
                             <Title><![CDATA[移动网站演示二]]></Title>
                             <Description><![CDATA[点击图标弹出效果演示]]></Description>
-                            <PicUrl><![CDATA[http://www.limeng.pw/mpweixin/imgs/tan.jpg]]></PicUrl>
-                            <Url><![CDATA[http://www.limeng.pw/mobile_personal/demo1.html]]></Url>
+                            <PicUrl><![CDATA[https://wx.44162148.vip/imgs/tan.jpg]]></PicUrl>
+                            <Url><![CDATA[https://wx.44162148.vip/project/mobile_persional/demo1.html]]></Url>
                         </item>
                         <item>
                             <Title><![CDATA[移动网站演示三]]></Title>
                             <Description><![CDATA[3D滑出侧边栏的效果演示]]></Description>
-                            <PicUrl><![CDATA[http://www.limeng.pw/mpweixin/imgs/ce_hua.jpg]]></PicUrl>
-                            <Url><![CDATA[http://www.limeng.pw/zcool_mobi/index.html]]></Url>
+                            <PicUrl><![CDATA[https://wx.44162148.vip/imgs/ce_hua.jpg]]></PicUrl>
+                            <Url><![CDATA[https://wx.44162148.vip/project/zcool_mobi/index.html]]></Url>
                         </item>
                         <item>
                             <Title><![CDATA[移动网站演示四]]></Title>
                             <Description><![CDATA[animo.js演示]]></Description>
-                            <PicUrl><![CDATA[http://www.limeng.pw/mpweixin/imgs/animojs.jpg]]></PicUrl>
-                            <Url><![CDATA[http://www.limeng.pw/animo_js/index.html]]></Url>
+                            <PicUrl><![CDATA[https://wx.44162148.vip/imgs/animojs.jpg]]></PicUrl>
+                            <Url><![CDATA[https://wx.44162148.vip/project/animo_js/index.html]]></Url>
                         </item>
                         </Articles>
                     </xml>";
@@ -72,8 +72,8 @@ function getTemplate($type = 'default_wz'){
                         <item>
                             <Title><![CDATA[今日天气]]></Title>
                             <Description><![CDATA[点击查看更多天气信息]]></Description>
-                            <PicUrl><![CDATA[http://www.limeng.pw/mpweixin/weather/mini_%s]]></PicUrl>
-                            <Url><![CDATA[http://www.limeng.pw/mpweixin/weather_detail.html?filename=%s]]></Url>
+                            <PicUrl><![CDATA[https://wx.44162148.vip/weather/mini_%s]]></PicUrl>
+                            <Url><![CDATA[https://wx.44162148.vip/weather_detail.html?filename=%s]]></Url>
                         </item>
                         </Articles>
                     </xml>";
