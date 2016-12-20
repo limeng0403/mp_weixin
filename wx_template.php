@@ -26,7 +26,7 @@ function getTemplate($type = 'default_wz'){
                         <FromUserName><![CDATA[%s]]></FromUserName>
                         <CreateTime>%s</CreateTime>
                         <MsgType><![CDATA[news]]></MsgType>
-                        <ArticleCount>7</ArticleCount>
+                        <ArticleCount>8</ArticleCount>
                         <Articles>
                         <item>
                             <Title><![CDATA[我的博客]]></Title>
@@ -69,6 +69,12 @@ function getTemplate($type = 'default_wz'){
                             <Description><![CDATA[饿了么前端团队vue框架演示]]></Description>
                             <PicUrl><![CDATA[https://wx.44162148.vip/imgs/element.jpg]]></PicUrl>
                             <Url><![CDATA[https://wx.44162148.vip/project/element/index.html]]></Url>
+                        </item>
+                        <item>
+                            <Title><![CDATA[汽车维护]]></Title>
+                            <Description><![CDATA[个人应用]]></Description>
+                            <PicUrl><![CDATA[https://wx.44162148.vip/imgs/element.jpg]]></PicUrl>
+                            <Url><![CDATA[https://demo.44162148.vip/car.html]]></Url>
                         </item>
                         </Articles>
                     </xml>";
